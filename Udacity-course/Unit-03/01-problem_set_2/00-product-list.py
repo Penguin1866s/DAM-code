@@ -6,7 +6,6 @@
 
 def product_list(list):
     counter = 0
-#    mult_nums_list = 0
     if len(list) == 0:
         mult_nums_list = 1
     else:
