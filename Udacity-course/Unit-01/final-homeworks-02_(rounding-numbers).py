@@ -7,6 +7,5 @@ print(input_number)
 
 number_decimals = str(rounding_number) #the function of "str()" is to transform the value of a number into a value of string.
 
-
 separator_decimals = number_decimals.find('.')
 print(number_decimals[ : separator_decimals])

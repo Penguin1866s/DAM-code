@@ -19,7 +19,6 @@ print(or_mabey_not[5 : 8] + or_mabey_not[1] * 15 + or_mabey_not[-1] * 15 *3)
 print(or_mabey_not[5] + or_mabey_not[-2] *3 *3 *2 + or_mabey_not[-3] + or_mabey_not[1] * 15 + or_mabey_not[-1] * 15 *3 + '!!!' *3)
 
 
-
 #The quiz of de video-tutorial
 something = 'udacity'
 print(something[2] + something[0] + something[1 : ])

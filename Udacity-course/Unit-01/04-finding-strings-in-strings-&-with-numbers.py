@@ -19,7 +19,6 @@ print('test'.find('e'))
 print(inmortality_definition.find('wabalabadingdong') + 1) #Olthough the result be "-1" yo can change the result with por example a sum like "+1" or other operation.
 
 
-
 #WITH NUMBERS NOW:
 finding_strings = 'When you are finding strings in other strings, you are finding substrings'
 print(finding_strings.find('string' , 0))
@@ -28,13 +27,10 @@ print('here '* 3)
 print(finding_strings.find('string' , 39))
 print(finding_strings.find('string' , 40))
 print(finding_strings.find('string' , -12))
-
 print(finding_strings[22:].find('string'))
 
 
-
 #The quiz of the video-tutotiral
-
 s = 'udacity'
 t ='city'
 i = 3

@@ -33,22 +33,6 @@ if url:#Verify if url has a value / that the value of url is not None.
 else:
     print("Not here!")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print('\n\n\n\n\nQuiz print_all_links:')
 page = '''<html><body><a href="https://www.google.com">Google</a><a href="https://www.youtube.com">YouTube</a><a href="https://www.github.com">GitHub</a><a href="https://www.stackoverflow.com">Stack Overflow</a><a href="https://www.amazon.com">Amazon</a></body></html>'''
 

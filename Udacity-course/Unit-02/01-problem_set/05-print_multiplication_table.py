@@ -16,22 +16,6 @@ print(print_multiplication_table(2))
 
 #It outputs the "None" at the end of de function, because I didn't put any "return" in the procedure/ function.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Attempt to invert the multiplication list:
 '''
 def print_multiplication_table (n_input):
@@ -60,20 +44,6 @@ def print_multiplication_table (n_input):
 
 print(print_multiplication_table(3))'''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #The reasoning on how I came to the conclusion on which algorithm to use:
 '''
 image reference = #In the image referente, it put the next:
@@ -82,15 +52,12 @@ image reference = #In the image referente, it put the next:
 2*1 = 2
 2*2 = 2
 
-
 result = 2
-
 n1 * n2(while n2 < 1) = result
 n1 * (n2 - 1(while n2 < 1)) = result
 (n1 - 1) * (n2  (while n2 < 1))
 (n1 - 1) * n2
 (n1 - 1) * (n2 -1)
-
 
 if n2 >= 1:
     n2 = n2 -1
@@ -98,8 +65,6 @@ else:
     n1 = n1 -1
     n2 = n_input
 '''
-
-
 
 #How to do it according to the video-tutorial(but it doesn't work):
 '''def print_multiplication_table(n):
