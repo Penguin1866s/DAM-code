@@ -30,7 +30,6 @@ while date1 is before date2:
 return days'''
 
 
-
 ###The Quiz of the asserts in function daysBetweenDates starts from here:
 def daysBetweenDates ( year1 , month1 , day1 , year2 , month2 , day2):
     total_days = 0
@@ -41,6 +40,5 @@ def daysBetweenDates ( year1 , month1 , day1 , year2 , month2 , day2):
     return total_days
 print(daysBetweenDates(1992 , 12 , 30 ,1992 , 12 , 30))
 print(daysBetweenDates(1994 , 12 , 30 ,1992 , 12 , 30))
-
 
 ###The assert taht is a debugging aid, her function is to tests that a condition is true, if not, it will crash the program.

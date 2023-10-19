@@ -20,13 +20,11 @@ def nextDay (year , month , day):
 #print(nextDay(1992 , 12 , 30))
 
 
-
 def dateIsBefore (year1 , month1 , day1 , year2 , month2 , day2):
     if (year1 , month1 , day1) <= (year2 , month2 , day2):
         return True
     else:
         return False
-
 
 
 def daysBetweenDates ( year1 , month1 , day1 , year2 , month2 , day2):
