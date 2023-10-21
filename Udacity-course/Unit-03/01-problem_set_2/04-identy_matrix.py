@@ -32,6 +32,7 @@ def esMatrizIdentidad(matrix):
     print(optional_retunr)
     return True
 
+#Test with assertions:
 assert esMatrizIdentidad([[1,0,0,0], [0,1,0,0], [0,0,1,0], [0,0,0,1]]) == True , "It don't pass the test -01_(matrix1)"
 assert esMatrizIdentidad([[1,0,0], [0,1,0], [0,0,0]]) == False , "It don't pass the test -02_(matrix2)"
 assert esMatrizIdentidad([[2,0,0], [0,2,0], [0,0,2]]) == False , "It don't pass the test -03_(matrix3)"
