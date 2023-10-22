@@ -26,3 +26,5 @@ if __name__ == '__main__':
     assert check_sudoku(stest.extraCorrecto2) == True , "It don't pass the test -09_(extraCorrecto2)"
     assert check_sudoku(stest.extraIncorrecto1) == False , "It don't pass the test -10_(extraIncorrecto1)"
     assert check_sudoku(stest.extraIncorrecto2) == False , "It don't pass the test -11_(extraIncorrecto2)"
+else:
+    print("The tests with assertions were not executed")
