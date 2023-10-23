@@ -1,7 +1,7 @@
 # DAM-code
 <p>All the files related to my DAM training.</p>
 <br>
-<p>Subfolders:</p>
+
 <h2>Proyects</h2>
 <p>The projects proposed by my teacher.</p>
 
