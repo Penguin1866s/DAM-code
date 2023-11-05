@@ -1,4 +1,4 @@
-#Ejerices rat book Charapter 8:
+#Ejerices rat book Charapter 8_(list):
 print('Ejercice-01:')
 print(len([1 , 2 , 3]))                #    Length
 print([1 , 2 , 3] + [4 , 5 , 6])       # Concatenation
@@ -101,7 +101,3 @@ del L[0]                               # Delete one item
 print(L)
 del L[1:]                              # Delete an entire section
 print(L)                               # Same as L[1:] = []
-
-print('\nEjercice-14:')
-print('\nEjercice-15:')
-print('\nEjercice-16:')
