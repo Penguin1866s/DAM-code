@@ -1,5 +1,6 @@
-#This code was not created by me
-#This exercise is to try the exception handling in python(page 1105)
+#This code was not created by me.
+#This exercise is to try the exception handling in python(page 1105).
+#An example of where try-except would be used is, for instance, in variable modifications, through, for example, keyboard or file entries or other modifications.
 sep = '-' * 45 + '\n'
 
 print(sep + 'EXCEPTION RAISED AND CAUGHT')
