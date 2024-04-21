@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="024967ed-7f68-4723-8222-941757f82ff5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../In_class/Kata--Bowling_game_(py)/Bowling_finalScore/.git.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../In_class/Kata--Bowling_game_(py)/Bowling_finalScore/.git.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../In_class/Kata--DNI-checker_(py)/DNI_checker/.git.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../In_class/Kata--DNI-checker_(py)/DNI_checker/.git.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../In_class/Yatzy_(py)/.git.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../In_class/Yatzy_(py)/.git.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/VLC_shuffle_player/.git.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/VLC_shuffle_player/.git.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/playground_git/Remote_demo5_gitFlow/.git.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/playground_git/Remote_demo5_gitFlow/.git.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/playground_git/demo3/.git.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/playground_git/demo3/.git.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/playground_git/demo4/.git.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/playground_git/demo4/.git.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/playground_git/demo5_gitFlow/.git.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyects/01-VLC_shuffle_player/playground_git/demo5_gitFlow/.git.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_temporal/algo_de_java_video_Victor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_temporal/annotations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_temporal/edu.badpals.__nombre__-_nombre_proyetos_java.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/proyect_java_learning_book/try_it_now_java_book">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dDV6XNGjbD0TL6mFagvRHYeeFm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "f705423e",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/TEIS/a23pablobc/DAM/DAM_backup/Programación/CODE/Java-book_Try_it_out/proyect_java_learning_book/try_it_now_java_book"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="024967ed-7f68-4723-8222-941757f82ff5" name="Changes" comment="" />
+      <created>1709542462175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709542462175</updated>
+    </task>
+    <servers />
+  </component>
+</project>
