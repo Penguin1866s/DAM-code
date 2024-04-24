@@ -88,6 +88,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.try_it_now_java_book:app [:app:ListEnumConstants.main()].executor": "Run",
+    "Gradle.try_it_now_java_book:app [:app:MorePowersToRegularExpressions.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:ProofsMethotsArgumentsPasing.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:RegexMatch.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:SmartSeverityTest.main()].executor": "Run",
