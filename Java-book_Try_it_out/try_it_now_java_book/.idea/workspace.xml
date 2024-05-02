@@ -90,6 +90,7 @@
     "Gradle.try_it_now_java_book:app [:app:ListEnumConstants.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:MatchingPattern.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:MorePowersToRegularExpressions.main()].executor": "Run",
+    "Gradle.try_it_now_java_book:app [:app:PatternMatcher.main()].executor": "Debug",
     "Gradle.try_it_now_java_book:app [:app:ProofsMethotsArgumentsPasing.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:RegexMatch.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:SmartSeverityTest.main()].executor": "Run",
@@ -138,5 +139,16 @@
       <updated>1712841807281</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/edu/badpals/try_it_now_java_book/example_09_RegularExpresions/PatternMatcher.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
