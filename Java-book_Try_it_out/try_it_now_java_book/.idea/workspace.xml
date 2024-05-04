@@ -87,7 +87,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.try_it_now_java_book:app [:app:GroupsAndReplacements.main()].executor": "Run",
+    "Gradle.try_it_now_java_book:app [:app:GroupsRegexPhoneMatcher.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:ListEnumConstants.main()].executor": "Run",
+    "Gradle.try_it_now_java_book:app [:app:MatchBoundary.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:MatchingPattern.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:MorePowersToRegularExpressions.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:PatternMatcher.main()].executor": "Debug",
@@ -98,6 +101,7 @@
     "Gradle.try_it_now_java_book:app [:app:TestETemp.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:TrashProofsMethodsArgumentsPasing.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:UsingCompareTo.main()].executor": "Run",
+    "Gradle.try_it_now_java_book:app [:app:UsingNamedGroups.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:deletemeTest.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
