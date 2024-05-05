@@ -87,6 +87,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.try_it_now_java_book:app [:app:EmailValidator.main()].executor": "Run",
+    "Gradle.try_it_now_java_book:app [:app:EmailValitador.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:GroupsAndReplacements.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:GroupsRegexPhoneMatcher.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:ListEnumConstants.main()].executor": "Run",
@@ -114,6 +116,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="EmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.badpals.try_it_now_java_book.example_09_RegularExpresions.EmailValidator" />
+      <module name="edu.badpals.try_it_now_java_book.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.badpals.try_it_now_java_book.example_09_RegularExpresions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatchingPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.badpals.try_it_now_java_book.example_09_RegularExpresions.MatchingPattern" />
       <module name="edu.badpals.try_it_now_java_book.app.main" />
@@ -129,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmailValidator" />
         <item itemvalue="Application.MatchingPattern" />
       </list>
     </recent_temporary>
@@ -148,9 +164,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/edu/badpals/try_it_now_java_book/example_09_RegularExpresions/PatternMatcher.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/edu/badpals/try_it_now_java_book/example_09_RegularExpresions/EmailValidator.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
