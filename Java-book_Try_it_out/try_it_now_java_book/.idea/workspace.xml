@@ -87,6 +87,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.try_it_now_java_book:app [:app:AdvanceFindReplace.main()].executor": "Debug",
     "Gradle.try_it_now_java_book:app [:app:EmailValidator.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:EmailValitador.main()].executor": "Run",
     "Gradle.try_it_now_java_book:app [:app:GroupsAndReplacements.main()].executor": "Run",
@@ -167,6 +168,15 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/edu/badpals/try_it_now_java_book/example_09_RegularExpresions/EmailValidator.java</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/edu/badpals/try_it_now_java_book/example_09_RegularExpresions/AdvanceFindReplace.java</url>
+          <line>6</line>
+          <properties class="edu.badpals.try_it_now_java_book.example_09_RegularExpresions.AdvanceFindReplace" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
