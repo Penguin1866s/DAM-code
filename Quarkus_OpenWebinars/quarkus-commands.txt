@@ -1,0 +1,8 @@
+
+quarkus create app edu.badpals:prueba_quarkus \
+    --extension='rest'
+cd prueba_quarkus
+
+curl localhost:8080/hello
+
+./mvnw  compile quarkus:dev
