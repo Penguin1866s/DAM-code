@@ -1,8 +1,149 @@
+// links of interest to this guide: "https://lordofthejars.github.io/quarkus-cheat-sheet/#_persistence"
 
-quarkus create app edu.badpals:prueba_quarkus \
+
+===[1]===
+"
+quarkus create app edu.badpals:<name_project> \
     --extension='rest'
-cd prueba_quarkus
+cd <name_project>
+"
 
-curl localhost:8080/hello
 
-./mvnw  compile quarkus:dev
+=optional=
+"
+./mvnw  compile quarkus:dev>
+curl localhost:8080/<something_to_output>
+"
+=========
+
+
+===[2]===//in fact, is optional
+(to compile the aplication in a docker/ in docker)
+"
+sudo ./mvnw package -Pnative -Dnative-image.docker-build=true -DskipTests
+"
+
+"
+docker build -f src/main/docker/Dockerfile.native -t quarkus/getting-started .
+"
+
+"
+docker run -i --rm -p 8080:8080 quarkus/getting-started
+"
+
+
+=optional=
+### Change a application.properties variables
+
+# In the terminal
+"
+./mvnw compile quarkus:dev -D<greetings.message>="The new message
+"
+
+# With environment variable
+//To remove the environment variable you have to "unset GREETINGS_MESSAGE" and then stop the service of quarkus; To stop the service completely you have to either reboot or "pkill -f quarkus"
+"
+export GREETINGS_MESSAGE="The new message"
+./mvnw compile quarkus:dev
+"
+
+# With a "config" folder in the root of the project with a "application.properties" file inside in.
+"
+mkdir config
+echo "greetings.message=The extra new message" > config/application.properties
+./mvnw compile quarkus:dev
+"
+=========
+
+
+===[3]===
+###Add a profile of a quarkus project
+Add in application.properties "%dev.<greetings.message=Hello>"//If this retournyou an error is because you have to change the espected value of the main class test the value of the greetings.message that is the actual value.
+
+##Compile all the project into a .jar
+"
+./mvnw compile package
+"
+##Execute the not version of "dev"(this is because the profile dev is the default profile) //And therefore the value of greetings.message will not be the one in the line "%dev.<greetings.message=...>", the value would be the value of the "<greetings.message=...>".
+"
+cd target
+//java -jar prueba_quarkus-1.0.0-SNAPSHOT-native-image-source-jar/prueba_quarkus-1.0.0-SNAPSHOT-runner.jar //(according to the tutorial it would probably be that,but since it does not return what it should i use the next comand instead of this)
+java -jar <quarkus-app/quarkus-run>.jar
+"
+
+##Add a nonexistent profile(in this case, called "staging")
+"
+Add in application.properties "%staging.greetings.message=<Konnichiwa>"
+"
+(run the quarkus application with the staging profile)
+"
+./mvnw compile quarkus:dev -Dquarkus.profile=staging
+"
+=========
+
+===[4]===
+###Other ways to access the configuration parameters other than those of "application.properties"
+"//In the case if you don't have the "META-INF" folder created in "src/main/resources/META-INF":
+mkdir src/main/resources/META-INF
+"
+"
+In the archive <InMemoryConfigSource>, import and override the methos of the "org.eclipse.microprofile.config.spi.ConfigSource"//Im not sure that must been to be this concrete.
+"
+"
+Add folder in "src/main/resources/META-INF" called "services" and inside add an archive called "org.eclipse.microprofile.config.spi.ConfigSource" and inside of this archive add the name of the class that you created before to know whaat class is going to be used as a configuration source.
+"
+And add to the class that you created before the override of the method "getOrdinal()" to return the priority of the configuration source.//I don't know who that works, but it is what the tutorial says.
+
+And now when you run the application you can see the new value of the greetings.message if you asign a new value to the greetings.message in the class that you created before.
+//Unfinished due to lack of understanding
+//[IMPORTANT]: In case you still get the greetings.message value from the previous configuration, to clear the cache you have to run "mvn clean install".
+#########
+
+
+
+###QuarkusData
+//Run DataBase with Docker
+"
+docker run -ti --rm -e MYSQL_ROOT_PASSWORD=developer -e MYSQL_USER=developer -e MYSQL_PASSWORD=developer -e MYSQL_DATABASE=developer -p 3306:3306 mariadb:10.5.5
+"
+We will create a new quarkus project.
+que add these three dependencies
+"
+./mvnw quarkus:add-extensions -Dextensions="quarkus-jdbc-mariadb, quarkus-resteasy-jsonb, quarkus-hibernate-orm"
+"
+
+// In case of have an error by a conflic with the dependencies of "Resteasy" and "Reactive" (even if you have not declared a dependency on "Reactive"), to solve this error you have to substitute the dependence of "<artifactId>quarkus-resteasy-jsonb</artifactId>" with "<artifactId>quarkus-resteasy-reactive-jsonb</artifactId>".
+
+
+// Entering data to application.
+"
+curl -d '{"name":"Alex", "id":1}' -H "Content-Type: application/json" -X POST http://localhost:8080/dev -v
+"
+
+// Accesing data inputed after modifying "GreetingsResource.java" to return it.
+//That is the uri provided after executing the previous data entry.
+"
+curl localhost:8080/dev/1
+"
+
+//List extension quarkus
+"
+./mvnw quarkus:list-extension
+"
+
+//Add Panage extension
+"
+./mvnw quarkus:add-extension -Dextension="quarkus-hibernate-orm-panache"
+"
+
+Summary:
+
+-quarkus create app edu.badpals:<name_project> \
+    --extension='rest'
+
+-./mvnw package -Pnative -Dnative-image.docker-build=true -DskipTests
+
+-docker build -f src/main/docker/Dockerfile.native -t quarkus/getting-started .
+
+-docker run -i --rm -p 8080:8080 quarkus/getting-started
+
